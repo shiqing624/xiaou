@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <router-view/>
+    <h2>张三</h2>
   </div>
 </template>
 
