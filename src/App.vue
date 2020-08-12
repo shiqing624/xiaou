@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <router-view/>
-    <h2>佳辉</h2>
-    <h2>史庆</h2>
+    <!-- <router-view/> -->
   </div>
 </template>
 
 <script>
+import axios from 'axios'
 export default {
   name: 'App',
-  data(){
-    return{
-      list:[1,23]
-    }
-  }
+  mounted() {
+    console.log(1);
+    axios.get('/api/list').then(data=>{
+      console.log(data);
+    })
+  },
 }
 </script>
 
