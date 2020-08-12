@@ -1,22 +1,24 @@
 <template>
   <div id="app">
-    <!-- <router-view/> -->
+    <router-view/>
   </div>
 </template>
 
 <script>
-import axios from 'axios'
 export default {
   name: 'App',
   mounted() {
-    console.log(1);
-    axios.get('/api/list').then(data=>{
-      console.log(data);
-    })
+    // this.$http.get('/list').then(data=>{
+    //   console.log(data);
+    // })
   },
 }
 </script>
 
-<style>
+<style lang="stylus">
+html,body,#app
+    height 100%
+    width 100%
+    overflow hidden
 
 </style>
