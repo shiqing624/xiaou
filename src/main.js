@@ -8,6 +8,7 @@ import http from './http/index'
 import './utils/remSettingStyle'
 import './style/rest.css'
 import './assets/iconfont/iconfont.css'
+import './assets/iconfont/icon.css'
 Vue.prototype.$http = http
 Vue.config.productionTip = false
 

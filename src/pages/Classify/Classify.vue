@@ -16,7 +16,7 @@
       </div>
       <div class="classifyRight">
         <ul v-if="classifyList.length>0">
-          <li v-for="(item,index) in classifyList[idx].children" :key="index" @click="proMore" :goodsList='goodsList'>
+          <li v-for="(item,index) in classifyList[idx].children" :key="index" @click="proMore">
             <img :src="'http://localhost:3000'+item.img" alt />
             <p>{{item.catename}}</p>
           </li>
@@ -33,7 +33,6 @@ export default {
     return {
       classifyList: [],
       idx: 0,
-      goodsList:[]
     }
   },
   components: {
@@ -44,11 +43,9 @@ export default {
       this.idx = i;
     },
     proMore() {
-      this.$http.get("/getgoods?" + this.idx).then((res) => {
-        this.goodsList = res.data.list
-        console.log(this.goodsList)
+   
         this.$router.push('/home/index?fid='+this.idx)
-      });
+     
     },
   },
   mounted() {

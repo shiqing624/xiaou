@@ -33,7 +33,8 @@ export default {
     height 0.39rem
     outline none
     background #eee
-    padding 0 0 0 0.1rem
+    font-size .14rem
+    text-align center
 &::placeholder 
     font-size .16rem
     color #999
