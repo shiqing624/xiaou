@@ -13,7 +13,7 @@
         <input type="text" @keydown.13="fun" :placeholder="icon+' 搜索商品'" class="iconfont"  v-model="val"/>
       </div>
       <ul>
-        <li v-for="item in goodsList" :key="item.id">
+        <li v-for="item in goodsList" :key="item.id" @click="detail(item.id)">
           <div class="proImg">
             <img :src="'http://localhost:3000'+item.img" :alt="item.id" />
           </div>
@@ -47,6 +47,10 @@ export default {
         this.goodsList = res.data.list
       })
     },
+    detail(i){
+      console.log(this.goodsList);
+      this.$router.push("/detail?id="+i)
+    }
   },
   watch:{
     val(){
