@@ -15,6 +15,10 @@ export default new Router({
       component: ()=>import('@/pages/Home/Home'),
       children: [
         {
+          path:'/home',
+          redirect:'index'
+        },
+        {
           path: 'index',
           component: () => import('@/pages/Home/Index')
         },
@@ -35,13 +39,9 @@ export default new Router({
           name: "My",
           component: ()=>import('@/pages/Home/My')
         },
-        {
-          path: 'searchPro',
-          name: "SearchPro",
-          component: ()=>import('@/pages/Home/SearchPro')
-        },
       ]
     },
+    
     {
       path: '/classify',
       name: "Classify",

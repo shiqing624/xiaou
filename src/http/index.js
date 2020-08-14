@@ -6,7 +6,6 @@ let instance = axios.create({
 })
 //请求拦截
 instance.interceptors.request.use((config) => {
-    console.log(config);
     let token = localStorage.getItem("token");
     if (token) {
         config.headers.token = token;

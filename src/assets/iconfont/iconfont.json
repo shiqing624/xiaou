@@ -1,0 +1,142 @@
+{
+  "id": "2003438",
+  "name": "xiaou",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11125641",
+      "name": "更多",
+      "font_class": "19",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "1305",
+      "name": "购物车满",
+      "font_class": "gouwucheman",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "255933",
+      "name": "联系我们",
+      "font_class": "lianxiwomen",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "400020",
+      "name": "主页",
+      "font_class": "htmal5icon06",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "519400",
+      "name": "分类",
+      "font_class": "fenlei",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "648779",
+      "name": "人群",
+      "font_class": "renqun",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "765849",
+      "name": "地址",
+      "font_class": "shouye",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "1191000",
+      "name": "二维码",
+      "font_class": "erweima",
+      "unicode": "e70a",
+      "unicode_decimal": 59146
+    },
+    {
+      "icon_id": "3315129",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "3405584",
+      "name": "商城",
+      "font_class": "shangcheng",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "4033837",
+      "name": "钱包",
+      "font_class": "qianbao",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "4408953",
+      "name": "订单",
+      "font_class": "ziyuan",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "6172052",
+      "name": "待收货",
+      "font_class": "daishouhuo",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "9557796",
+      "name": "搜索框",
+      "font_class": "sousuokuang",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "10707252",
+      "name": "箭头 右 right",
+      "font_class": "jiantouyou",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "10707278",
+      "name": "箭头 左 left",
+      "font_class": "jiantouzuo",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "11206632",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "11520979",
+      "name": "代付款",
+      "font_class": "daifukuan",
+      "unicode": "e76f",
+      "unicode_decimal": 59247
+    },
+    {
+      "icon_id": "12593297",
+      "name": "闹钟",
+      "font_class": "naozhong",
+      "unicode": "e6f6",
+      "unicode_decimal": 59126
+    }
+  ]
+}

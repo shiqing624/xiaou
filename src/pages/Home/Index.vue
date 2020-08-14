@@ -1,12 +1,34 @@
 <template>
-    <div>
-        <h1>主页</h1>
+    <div :is="pathTap">
     </div>
 </template>
 
 <script>
-    export default {
-        
+import Index from "@/components/home/index"
+import SearchPro from "@/components/home/SearchPro"
+export default {
+        data(){
+          return{
+            pathTap:"Index"
+          }
+        },
+        components:{
+          Index,
+          SearchPro
+        },
+        watch: {
+          $route:{
+            deep:true,
+            handler(){
+              if(this.$route.query.fid){
+                this.pathTap= "SearchPro"
+              }else{
+                this.pathTap= "Index"
+              }
+            },
+            immediate:true
+          }
+        },
     }
 </script>
 

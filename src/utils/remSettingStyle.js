@@ -6,7 +6,7 @@ function fontSize() {
     var fs = clientWidth / 7.5;
     document.documentElement.style.fontSize = fs + "px";
 }
-
+fontSize()
 window.onresize = function () {
     fontSize();
 }

@@ -8,9 +8,6 @@
 export default {
   name: 'App',
   mounted() {
-    // this.$http.get('/list').then(data=>{
-    //   console.log(data);
-    // })
   },
 }
 </script>
