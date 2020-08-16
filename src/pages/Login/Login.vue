@@ -26,7 +26,8 @@ export default {
         phone: this.tel,
         password: this.pwd,
       }).then(res=>{
-          localStorage.setItem("token",res.data.list.token)
+          localStorage.setItem("userInf",res.data.list)
+          this.$store.commit("getUser",res.data.list)
           this.$router.push("/home/index?uid="+res.data.list.uid)
       })
     },

@@ -9,6 +9,9 @@ import './utils/remSettingStyle'
 import './style/rest.css'
 import './assets/iconfont/iconfont.css'
 import './assets/iconfont/icon.css'
+import Vant from 'vant';
+import 'vant/lib/index.css';
+Vue.use(Vant);
 Vue.prototype.$http = http
 Vue.config.productionTip = false
 
